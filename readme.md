@@ -104,3 +104,9 @@ http://localhost:3306
 # Sample Input
     
     api/search/dishes?name=biryani&minPrice=150&maxPrice=300
+
+# sample deployed input
+
+    https://convertcart-production-0012.up.railway.app/
+    
+    https://convertcart-production-0012.up.railway.app/api/search/dishes?name=biryani&minPrice=150&maxPrice=300
