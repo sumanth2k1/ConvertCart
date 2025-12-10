@@ -103,4 +103,4 @@ http://localhost:3306
 
 # Sample Input
     
-    /search/dishes?name=biryani&minPrice=150&maxPrice=300
+    api/search/dishes?name=biryani&minPrice=150&maxPrice=300
