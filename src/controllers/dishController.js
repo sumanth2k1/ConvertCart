@@ -13,6 +13,7 @@ export async function searchDishes(req, res, next) {
     try {
         const { error, value } = querySchema.validate(req.query, { convert: true });
         if (error) return res.status(400).json({ error: error.message });
+        // console.log('Validated Query:', value);
 
         const { name, minPrice, maxPrice } = value;
 

@@ -13,9 +13,7 @@ const pool = mysql.createPool({
   maxIdle: 10,           
   idleTimeout: 60000,    
   queueLimit: 0,
-  ssl: {
-    rejectUnauthorized: false
-  }
+  multipleStatements: true
 });
 
 export default pool;
