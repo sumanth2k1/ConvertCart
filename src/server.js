@@ -10,7 +10,7 @@ import errorHandler from './middleware/errorHandler.js';
 
 
 dotenv.config({
-  path: process.env.NODE_ENV === 'production' ? '.env' : '.env.production'
+  path: process.env.NODE_ENV === 'production' ? '.env' : '.env.development'
 });
 
 
